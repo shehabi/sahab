@@ -1,6 +1,6 @@
 # sahab
 
-The script is just sample script programmed by ionic+nodejs.
+This script done by ionic and nodejs and by expressjs with multiple of modules.
 
 Purpose:
 The script a menu for all restuarants in Bahrain, including phone, and mobile and the time of delivery.
