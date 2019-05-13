@@ -12,3 +12,5 @@ The script a menu for all restuarants in Bahrain, including phone, and mobile an
 4) npm install
 5) node server
 
+# Modifying the list of resturant:
+Edit js/resturants.js for modifying the list.
