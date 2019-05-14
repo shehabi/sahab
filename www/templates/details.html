@@ -1,0 +1,16 @@
+<ion-view location="resturant">
+    <ion-content has-header="true" padding="true">
+
+        <div class="list card">
+            <div class="item item-avatar">
+                <img src="pics/{{resturant.pic }}"/><h2>{{resturant.enname}} {{resturant.arname}}</h2><p>{{resturant.location}}</p>
+            </div>
+            <a class="item item-icon-left"><i class="icon ion-ios7-location"></i>Location:<p> {{resturant.location}} </p></a>
+            <a class="item item-icon-left"><i class="icon ion-ios7-clock"></i>Delivery hours:<p> {{resturant.deliveryhours}} </p></a>
+            <a class="item item-icon-left" href="tel:{{resturant.phone}}"><i class="icon ion-ios7-telephone"></i>Phone:<p> {{resturant.phone}} </p></a>
+            <a class="item item-icon-left" href="tel:{{resturant.mobile}}"><i class="icon ion-ios7-telephone"></i>Mobile:<p> {{resturant.mobile}} </p></a>
+        </div>
+
+
+    </ion-content>
+</ion-view>
